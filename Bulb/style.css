@@ -1,0 +1,23 @@
+body {
+    width: 300px;
+}
+
+#heading {
+    text-align: center;
+    background-color: rgb(96, 233, 121);
+    display: inline-block;
+
+}
+
+#bulb {
+    border: 3px solid black;
+
+    text-align: center;
+}
+
+#res {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: double;
+
+}
