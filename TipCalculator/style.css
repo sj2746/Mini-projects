@@ -1,0 +1,75 @@
+#outerBody{
+    background-color: aqua;
+    width:300px;
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+#TipCal{
+    width:340px;
+    height:410px;
+    background-color: blue;
+    border-radius: 20px
+}
+#TIPP{
+    color: aliceblue;
+}
+#inputTotal,#TipPer,#splitBill{
+    display: flex;
+    margin-left: 10px;
+}
+
+#tipper,#splitbill{
+    height: 20px;
+    width: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+#btns1{
+    height: 25px;
+    width:25px;
+    border-radius: 50%;
+    background-color: rgb(245, 138, 138);
+    
+}
+#btns2{
+    height: 25px;
+    width:25px;
+    border-radius: 50%;
+    background-color: rgb(107, 234, 107);
+}
+#inputs{
+
+    margin-left: 20px;
+    bottom: 10px;
+    left: 10px;
+}
+#totbill{
+    height: 20px;
+}
+
+#finalBill,#totalTip,#PerPerson{
+    color: red;
+}
+
+#calBtn{
+    text-align: center;
+    margin-left: 100px;
+}
+
+#btns1:hover{
+    color: white;
+    background-color: rgb(255, 10, 10);
+}
+
+#btns2:hover{
+    color: white;
+    background-color: rgb(10, 255, 22);
+}
+.inputs{
+    background-color: yellow;
+}
+

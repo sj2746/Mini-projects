@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="TipCal">
+    <h1>Tip Calculator</h1>
+    <div id="outerBody">
+        <div id="inputTotal">
+            <p id="TotBill">Total Bill: </p>
+
+            <input type="text" id="totbill" class="inputs" required>
+        </div>
+
+        <div id="TipPer">
+            <p id="TotBill">Tip(%): </p>
+            <div id="inputs">
+                <button onclick="decrementTipPer()" id="btns1">- </button>
+                <input type="text" id="tipper" class="inputs" required>
+                <button onclick="incrementTipPer()" id="btns2">+</button>
+            </div>
+        </div>
+
+
+        <div id="splitBill">
+            <p id="TotBill">Split Bill: </p>
+            <div id="inputs">
+                <button onclick="decrementSplitBill()" id="btns1">-</button>
+                <input type="text" id="splitbill" class="inputs" required>
+                <button onclick="incrementSplitBill()" id="btns2">+</button>
+            </div>
+        </div>
+
+
+        <h3>Total to Pay: <span id="finalBill"></span></h3>
+        <h3>Total Tip: <span id="totalTip"></span></h3>
+        <h3>Total Per Person: <span id="PerPerson"></span></h3>
+        <button id="calBtn">Calculate</button>
+    </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
