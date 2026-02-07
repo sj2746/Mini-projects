@@ -13,16 +13,17 @@
     <h1>Tip Calculator</h1>
     <div id="outerBody">
         <div id="inputTotal">
+            <!-- Updated String-> Number -->
             <p id="TotBill">Total Bill: </p>
 
-            <input type="text" id="totbill" class="inputs" required>
+            <input type="number" id="totbill" class="inputs" required>
         </div>
 
         <div id="TipPer">
             <p id="TotBill">Tip(%): </p>
             <div id="inputs">
                 <button onclick="decrementTipPer()" id="btns1">- </button>
-                <input type="text" id="tipper" class="inputs" required>
+                <input type="number" id="tipper" class="inputs" required>
                 <button onclick="incrementTipPer()" id="btns2">+</button>
             </div>
         </div>
@@ -32,7 +33,7 @@
             <p id="TotBill">Split Bill: </p>
             <div id="inputs">
                 <button onclick="decrementSplitBill()" id="btns1">-</button>
-                <input type="text" id="splitbill" class="inputs" required>
+                <input type="number" id="splitbill" class="inputs" required>
                 <button onclick="incrementSplitBill()" id="btns2">+</button>
             </div>
         </div>

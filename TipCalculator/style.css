@@ -58,6 +58,10 @@ h1{
 #calBtn{
     text-align: center;
     margin-left: 100px;
+    background-color: yellow;
+    color: blue;
+    border-radius: 10px;
+    padding: 8px;
 }
 
 #btns1:hover{
