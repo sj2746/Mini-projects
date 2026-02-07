@@ -8,9 +8,6 @@ const finalBill=document.getElementById("finalBill");
 const totalTip=document.getElementById("totalTip");
 const PerPerson=document.getElementById("PerPerson");
 
-
-
-
 let tipperCount=0;
 let splitBillCount=0;
 function decrementTipPer(){
@@ -44,13 +41,14 @@ CalBtn.addEventListener("click",()=>{
         alert("Enter all inputs")
         return
     }
+
+    //Taking all inputs
     NumTotalBill=parseFloat(TotBill.value)
     TIPPERCEBTAGE=parseFloat(tipper.value)
     SPLITBILL=parseFloat(splitBill.value)
     TTP1=(NumTotalBill*(TIPPERCEBTAGE/100))
     TIP2=TTP1+NumTotalBill
     TTPFINAL=TIP2/SPLITBILL
-
 
     finalBill.innerHTML=`${TIP2}/-`
     totalTip.innerHTML=`Rs. ${TTP1}`
