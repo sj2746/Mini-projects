@@ -1,0 +1,84 @@
+<!-- A html page for Note App must contain:
+    1] Input Box
+    2] Text Area 
+    3] Add Button
+    -->
+    <!--
+    Step 1: An Event Listners for all three of the tags(input,textarea,button)
+    Step 2: Add onclick option or id in submit button(in HTML) and in script.js add a function 
+                that stores input and textarea value.
+    Step 3: Add append function with parameters of input values and make both inputs as empty 
+                string ('')
+    Step 4: Create an empty array in script file and in append function create an object that 
+                contains (id,title,content) ------[NOTE:- id:Date.now() is used for Unique ID]
+    Step 5: Add the list to notes array using psuh function
+    Step 6: Learn the FUNCTIONS,Filter,Find uses and learn it using ChatGPT and 
+                 ask not give to code directly but train me to make a note app.
+    [BONUS: (PROMPT RESULT)]:
+--------------------------------------------------------------------------------------------
+✅ Mini Notes CRUD Example (JavaScript)
+let notes = []; // Array to store all notes
+
+// ✅ CREATE (Add Note)
+function addNote(title, content) {
+  let newNote = {
+    id: Date.now(),
+    title: title,
+    content: content
+  };
+
+  notes.push(newNote);
+  console.log("Note Added:", newNote);
+}
+
+// ✅ READ (Show All Notes)
+function showNotes() {
+  console.log("All Notes:");
+  notes.forEach((note) => {
+    console.log(note.id, note.title, "-", note.content);
+  });
+}
+
+// ✅ UPDATE (Edit Note)
+function updateNote(id, newTitle, newContent) {
+  let note = notes.find((n) => n.id === id);
+
+  if (note) {
+    note.title = newTitle;
+    note.content = newContent;
+    console.log("Note Updated:", note);
+  } else {
+    console.log("Note not found!");
+  }
+}
+
+// ✅ DELETE (Remove Note)
+function deleteNote(id) {
+  notes = notes.filter((n) => n.id !== id);
+  console.log("Note Deleted! Remaining notes:", notes);
+}
+
+✅ Test the Code (Run This)
+addNote("Shopping", "Buy milk");
+addNote("Study", "Learn JavaScript CRUD");
+
+showNotes();
+
+// copy any id from output and paste below
+let firstId = notes[0].id;
+
+updateNote(firstId, "Shopping Updated", "Buy milk + bread");
+
+showNotes();
+
+deleteNote(firstId);
+
+showNotes();
+
+--------------------------------------------------------------------------
+Step 7: Copy 👆and ask "can u explain all concepts clearly"
+
+step 8: Understand .innerHTML use in js(used for making multiple cards)
+
+step 9:Understand FUNCTIONS properly you are READY to build project 🔥🔥🔥🔥🔥
+
