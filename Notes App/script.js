@@ -62,7 +62,7 @@ function deleteNote(id){
 `
 
   });
-  alert("Note Updated")
+  alert("Note Deleted Successfully")
   
 }
 
