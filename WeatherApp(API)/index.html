@@ -1,6 +1,26 @@
-<input type="text" id="city" placeholder="Enter city">
-<button onclick="getTemp()">Get Temperature</button>
-
-<h2 id="result"></h2>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+   <h1 id="h1">Weather App</h1>
+    <input type="text" id="input"><button onclick="searchCity()" id="btn">🔍</button>
+   <div id="weather_card">
+        <div id="loc"><p>📍LOCATION: <span id="loc_inp"></span></p></div>
+        <div id="country"><p >🌎COUNTRY:<span id="country_name"></span></p> </div>
+        <div id="temp_body">
+           
+            <h3 id="temp"></h3>
+        </div>
+        <div id="weat_body"><p >🌥️Weather:<span id="weather_type"></span></p></div>
+        <div id="humidity_body"><p>🌡️Humidity:<span  id="humidity"></span></p></div>
+        <div id="time_body"><p>📅Current Date &amp; Time:<span  id="time"></span></p></div>
+   </div>
+</body>
 <script src="script.js"></script>
+</html>
