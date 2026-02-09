@@ -1,0 +1,89 @@
+#trData{
+    border:1px solid black;
+    width:60%;
+    background-color: yellow;
+   
+}
+h1{
+    font-style: oblique;
+}
+td{
+    border:1px solid black;
+    width:30px
+}
+#expTrackBody{
+    border:1px solid black;
+    display: inline-block;
+    padding: 30px;
+    margin-top: 0;
+    border-radius: 30px;
+    font-style: oblique;
+    background-color: rgb(171, 171, 203);
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}   
+.lab   {
+    font-size: 18px;
+    margin: 10px;
+
+}
+.inp{
+    width: 100px;
+    margin-left: 30px;
+     margin: 10px;
+     background-color: rgb(146, 157, 195);
+}
+#submit{
+    background-color: rgb(150, 217, 168);
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 30%;
+    border-radius: 10px;
+    
+}
+#dashboard{
+    background-color: white;
+
+    width:400px;
+    padding: 20px;
+    margin: 40px 0 40px 0;
+    text-align: center;
+    box-shadow: 00px 0px 20px purple;
+    border-radius: 20px;
+    font-family:fantasy;
+    }
+#income{
+    
+    text-align: center;
+    height: 50px;
+    width:50%;
+    height: 100px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+#expense{
+   
+    text-align: center;
+    height: 50px;
+    width:50%;
+    height: 100px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#incnexp{
+display: flex;
+}
+h2{
+    margin-top: 0px;
+}
+#incomeNum{
+    color: rgb(84, 182, 84);
+    font-size: 25px;
+}
+#expenseNum{
+    color: rgb(175, 56, 56);
+    font-size: 25px;
+}
+#remainNum{
+    color:blueviolet
+}

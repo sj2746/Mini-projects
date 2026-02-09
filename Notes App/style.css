@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    background-color: blue;
+    margin-top: 0px;
+
+}
+#outerApp{
+   border-radius: 40px;
+    padding: 20px;
+    width:400px;
+    background-color: rgb(164, 150, 150);
+}
+.inputs{
+    width:200px;
+    margin: 10px;
+    background-color: rgb(221, 230, 238);
+   border-radius: 10px;
+}
+#titleInput{
+    height:25px;
+}
+#addNote{
+    margin-left: 20px;
+    background-color: yellow;
+    border-radius: 10px;
+    height: 30px;
+}
+
+#NoteCard{
+    border-radius: 40px;
+    padding: 20px;
+    width:400px;
+    background-color: rgb(204, 168, 168);
+    margin-top: 10px;
+}

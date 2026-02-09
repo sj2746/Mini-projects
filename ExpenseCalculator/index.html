@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Expense Tracker</h1>
+    <div id="expTrackBody">
+    
+
+    <label for="name" class="lab">Name</label><input  class="inp" type="text" id="note"><br>
+    <label for="amount"  class="lab">Amount(INR)</label><input  class="inp" type="number" id="amount"><br>
+    <label for="expenseOrIncome"  class="lab">Type</label>
+    <select name="expenseType" id="expenseType"  class="inp" >
+        <option value="Income">Income </option>
+        <option value="Expense">Expense</option>
+    </select><br>
+    <button id="submit">Submit</button>
+    </div>
+    <div id="dashboard">
+        <h2>Balance :</h2>
+        <h2 id="remainNum"></h2>
+        <div id="incnexp">
+            <div id="income"><p>Income :<br><span id="incomeNum"></span></p></div>
+            <div id="expense"><p>Expense :<br><span id="expenseNum"></span></p></div>
+        </div>
+
+    </div>
+    <table id="trData">
+        <tr>
+            <td>ID</td>
+            <td>Name </td>
+            <td>Amount </td>
+            <td>Type</td>
+        </tr>
+
+
+    </table>
+</body>
+<script src="script.js"></script>
+
+</html>

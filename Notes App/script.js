@@ -25,7 +25,7 @@ function appendNote(title,content){
   notes.push(list)
   
   noteCard.innerHTML=noteCard.innerHTML += `
-  <div>
+  <div id="NoteCard">
     <h3>${list.title}</h3>
     <h4>${list.content}</h4>
 
@@ -52,8 +52,8 @@ function deleteNote(id){
   notes=note
   notes.forEach(note => {
     noteCard.innerHTML=noteCard.innerHTML += `
-  <div>
-    <h3>${note.title}</h3>
+  <div id="NoteCard">
+    <h3 >${note.title}</h3>
     <h4>${note.content}</h4>
 
     <button onclick="editNote(${note.id})">Edit</button>
@@ -77,7 +77,7 @@ function displayAllNotes(){
   noteCard.innerHTML=''
   notes.forEach(note => {
     noteCard.innerHTML=noteCard.innerHTML += `
-  <div>
+  <div id="NoteCard">
     <h3>${note.title}</h3>
     <h4>${note.content}</h4>
 
