@@ -1,0 +1,27 @@
+h1{
+    font-family:sans-serif
+}
+#test{
+    width:100px;
+    height:20px;
+}
+#eachNews{
+    display: flex;
+    border:1px solid black;
+    width:100%;
+    margin: 20px;
+}
+#eachImage{
+    height:150px;
+    width:150px;
+   
+    padding: 10px;
+}
+#postDate{
+   
+    color: purple;
+}
+#input{
+    width:200px;
+    margin-left: 20px;
+}

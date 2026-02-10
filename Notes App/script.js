@@ -1,6 +1,6 @@
 const titleInput=document.getElementById("titleInput")
 const contentInput=document.getElementById("contentInput")
-const addNote=document.getElementById("addNote")
+const addNote=document.getElementById("addNote")//btn
 const noteCard=document.getElementById("noteCard")
 let notes=[]
 
@@ -8,7 +8,7 @@ let notes=[]
 const edit=document.getElementById("edit")
 let currentId=null
 
-addNote.addEventListener("click",()=>{
+addNote.addEventListener("click",()=>{///click action
   title=titleInput.value
   content=contentInput.value
   appendNote(title,content);
