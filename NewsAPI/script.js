@@ -37,20 +37,4 @@ async function searchNews() {
 }
 
 
-
-
-
-// "articles": [
-//     {
-//       "source": {
-//         "id": null,
-//         "name": "OilPrice.com"
-//       },
-//       "author": "Tsvetana Paraskova",
-//       "title": "India Resumes Venezuelan Crude Purchases After U.S. Opens Market",
-//       "description": "India’s largest private refiner, Reliance Industries, is buying Venezuelan crude again, securing the first Indian purchase of oil from the world’s top reserves holder since the U.S. took control of Venezuela’s oil sales early last month. Reliance Industries h…",
-//       "url": "https://oilprice.com/Latest-Energy-News/World-News/India-Resumes-Venezuelan-Crude-Purchases-After-US-Opens-Market.html",
-//       "urlToImage": "https://d32r1sh890xpii.cloudfront.net/news/718x300/2026-02-06_am6vhlfu12.jpg",
-//       "publishedAt": "2026-02-06T11:32:39Z",
-//       "content": "The U.S. is launching a…\r\nShares in Volvo Cars plunged…\r\nBy Tsvetana Paraskova - Feb 06, 2026, 5:32 AM CSTIndia’s largest private refiner, Reliance Industries, is buying Venezuelan crude again, secur… [+1940 chars]"
-//     },
+//NOTE: THE CODE WILL WORK AFTER PASTING API_KEY
