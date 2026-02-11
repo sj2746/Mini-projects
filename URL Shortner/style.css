@@ -1,0 +1,17 @@
+body{
+    background: #2db7ed;
+background: linear-gradient(90deg,rgba(45, 183, 237, 1) 0%, rgba(87, 167, 199, 1) 76%, rgba(237, 221, 83, 1) 100%);
+}
+#longUrl{
+    width:90%;
+    margin: auto;
+    height: 30px;
+    display: block;
+    font-family: sans-serif;
+   border-radius: 10px;
+}
+#covert{
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+}
